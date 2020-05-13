@@ -82,15 +82,108 @@
 // Для n = 10 результат должен быть 2,3,5,7.
 // P.S. Код также должен легко модифицироваться для любых других интервалов. (используйте функции)
 
-function primeNumbers (num) {
-    primeNumbersNext:
-    for(var i = 2; i <= num; i += 1) {
-        for(var a = 2; a < i; a += 1) {
-            if(i % a === 0) continue primeNumbersNext;
-        }
-        console.log(a);
-        }
+// function primeNumbers (num) {
+//     primeNumbersNext:
+//     for(var i = 2; i <= num; i += 1) {
+//         for(var a = 2; a < i; a += 1) {
+//             if(i % a === 0) continue primeNumbersNext;
+//         }
+//         console.log(a);
+//         }
         
-    }
+//     }
 
- primeNumbers(10);
+//  primeNumbers(10);
+
+
+
+
+
+
+
+
+
+
+
+// Д/З №2
+
+// 1. Первая задача на Freecodecamp - Convert Celsius to Fahrenheit (раздел Basic Algorithm Scripting)
+function convertToF(celsius) {
+    var fahrenheit;
+    fahrenheit = (celsius * 9)/5 + 32;
+    return fahrenheit;
+  }
+  
+  console.log(convertToF(20));
+
+
+// 2. Вторая задача на Freecodecamp - Reverse a String (раздел Basic Algorithm Scripting)
+
+// function reverseString(str) {
+//     for (var newStr = '', 
+//     i = str.length - 1; 
+//     i >= 0; i--) {
+//       newStr += str[i];
+//     }
+//     return newStr;
+//   }
+  
+//   console.log(reverseString("Greetings from Earth"));
+
+// 3. Седьмая задача на Freecodecamp - Repeat a String Repeat a String (раздел Basic Algorithm Scripting)
+
+// function repeatStringNumTimes(str, num) {
+//     var newStr = '';
+//     for(newStr; num > 0; num--) {
+//       newStr += str
+//     }
+//     return newStr;
+//   }
+  
+//   console.log(repeatStringNumTimes("*", 8));
+
+
+// 4. Создайте массив arr с числовыми величинами 45,78,10,3. Добавьте в массив arr еще одно число. 
+// Посчитайте в переменную sum сумму чисел в нем, при помощи цикла for/while.
+
+
+// var arr = [45, 78, 10, 3];
+
+// arr.push(13);
+
+// console.log(arr);
+
+// var sum = 0;
+
+// // for(i = 0; i < arr.length; i += 1) {
+// //     sum += arr[i]; 
+// // } 
+// // console.log(sum);
+
+// var i = 0;
+// while(i < arr.length) {
+//     sum += arr[i];
+//     i += 1;
+// } console.log(sum);
+
+// 5.Дан объект
+// var salaries = {
+// John: 100,
+// Ann: 160,
+// Pete: 130
+// }
+// Напишите код для суммирования всех зарплат и сохраните результат в переменной sum.
+
+// var salaries = {
+// John: 100,
+// Ann: 160,
+// Pete: 130
+// }
+
+// var sum = 0;
+
+// for(var key in salaries) {
+//     sum += salaries[key];
+// }
+
+// console.log(sum);
