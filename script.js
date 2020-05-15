@@ -108,13 +108,13 @@
 // Д/З №2
 
 // 1. Первая задача на Freecodecamp - Convert Celsius to Fahrenheit (раздел Basic Algorithm Scripting)
-function convertToF(celsius) {
-    var fahrenheit;
-    fahrenheit = (celsius * 9)/5 + 32;
-    return fahrenheit;
-  }
+// function convertToF(celsius) {
+//     var fahrenheit;
+//     fahrenheit = (celsius * 9)/5 + 32;
+//     return fahrenheit;
+//   }
   
-  console.log(convertToF(20));
+//   console.log(convertToF(20));
 
 
 // 2. Вторая задача на Freecodecamp - Reverse a String (раздел Basic Algorithm Scripting)
@@ -187,3 +187,4 @@ function convertToF(celsius) {
 // }
 
 // console.log(sum);
+
